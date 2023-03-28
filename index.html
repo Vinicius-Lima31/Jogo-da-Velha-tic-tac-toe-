@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1021/1021264.png">
+</head>
+<body>
+  <main>
+    <h1>JOGO DA VELHA</h1>
+    <hr />
+
+    <!-- Forma de criar tabuleiro-->
+    <div id="gv" class="game">
+      <!-- pointer seria o cursor, que irei remover após cada click-->
+      <button class="pointer" data-i="0"></button>
+      <button class="pointer" data-i="1"></button>
+      <button class="pointer" data-i="2"></button>
+      <button class="pointer" data-i="3"></button>
+      <button class="pointer" data-i="4"></button>
+      <button class="pointer" data-i="5"></button>
+      <button class="pointer" data-i="6"></button>
+      <button class="pointer" data-i="7"></button>
+      <button class="pointer" data-i="8"></button>
+    </div>
+
+    <!-- Eu botei esses traços para já reservar um espaço para o <h2>, porém irei deixar transparente-->
+    <h2 id="currentPlayer" style="opacity: 0;">-----</h2>
+  </main>
+
+</body>
+</html>
